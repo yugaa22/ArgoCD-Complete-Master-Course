@@ -5,7 +5,6 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: Validate=true
 spec:
-  replicas: 1
   containers:
     - name: nginx-container
       image: nginx:latest
