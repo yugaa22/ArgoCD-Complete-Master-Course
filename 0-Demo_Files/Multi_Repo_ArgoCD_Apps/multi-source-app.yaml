@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-  - repoURL: https://github.com/SMACAcademy/k8s-main-config.git
-    targetRevision: main
-    path: deploy/production
-  - repoURL: https://github.com/SMACAcademy/k8s-additional-config.git
-    targetRevision: main
-    path: config
+    - repoURL: https://github.com/SMACAcademy/k8s-main-config.git
+      targetRevision: main
+      path: deploy/production
+    - repoURL: https://github.com/SMACAcademy/k8s-additional-config.git
+      targetRevision: main
+      path: config
   destination:
     server: https://kubernetes.default.svc
     namespace: production
